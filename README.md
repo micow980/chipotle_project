@@ -23,9 +23,26 @@ Looker Studio - Data Viz
 **DAG:** Data Source -> Mage -> Data Lake (GCS) **and** Data Warehouse (BigQuery) -> Data Visualization (Looker)
 
 
-
 **Data Cleaning:**
+
 With the data in the column choice_description, all of the data contained bracketed values and commas rather than individual items per column. To remedy this, an .explode() function was utilized alongside a str() function to remove data issues
+
+**How to Recreate**
+
+For you to recreate you should have a working GCP account (trial included), Terraform in your IDE of choice (VSCode - HashiCorp Terraform).
+
+**Terraform:**
+Using the terraform files from the repo you'll need to have your GCP Credentials within the key file for your path to accept and read.
+
+Attached is the files from this repo, please adjust the formatting to match your GCP credentials/pathing:
+_main.tf
+variable.tf_
+
+terraform init
+terraform plan
+terraform apply
+
+Run the terraforming snippet
 
 **Mage Breakdown:**
 
