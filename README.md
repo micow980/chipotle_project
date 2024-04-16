@@ -7,6 +7,7 @@ The dataset found for this project was found on Kaggle in the form of a .tsv fil
 Although the dataset is a snapshot of a certain day of data this can be adopted to conduct ad-hoc reviews to assist managers in operations week-over-week given the proper data.
 
 **Tools**
+
 Languages Used: Python (Pandas, PyArrow)
 
 Infrastructure as Code: Terraform
