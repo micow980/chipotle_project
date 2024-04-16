@@ -8,19 +8,19 @@ Although the dataset is a snapshot of a certain day of data this can be adopted 
 
 **Tools**
 
-Languages Used: Python (Pandas, PyArrow)
+**Languages Used**: Python (Pandas, PyArrow)
 
-Infrastructure as Code: Terraform
+**Infrastructure as Code:** Terraform
 
-Data Orchestration: Mage
+**Data Orchestration:** Mage
 
-Data Transformation: Mage
+**Data Transformation:** Mage
 
-Data Lake: Google Cloud Storage
+**Data Lake:** Google Cloud Storage
 
-Data Warehouse: BigQuery
+**Data Warehouse:** BigQuery
 
-Data Visualization: Looker Studio
+**Data Visualization:** Looker Studio
 
 
 **Data Cleaning:**
