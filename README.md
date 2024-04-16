@@ -22,6 +22,9 @@ Although the dataset is a snapshot of a certain day of data this can be adopted 
 
 **Data Visualization:** Looker Studio
 
+![image](https://github.com/micow980/chipotle_project/assets/110073973/2e5b58f8-33cf-4d48-93ec-5b1710b85d90)
+
+
 
 **Data Cleaning:**
 With the data in the column choice_description, all of the data contained bracketed values and commas rather than individual items per column. To remedy this, an .explode() function was utilized alongside a str() function to remove data issues
