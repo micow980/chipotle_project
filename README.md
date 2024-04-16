@@ -8,8 +8,10 @@ Although the dataset is a snapshot of a certain day of data this can be adopted 
 With the data in the column choice_description, all of the data contained bracketed values and commas rather than individual items per column. To remedy this, an .explode() function was utilized alongside a str() function to remove data issues
 
 Mage Breakdown:
+
 ![image](https://github.com/micow980/chipotle_project/assets/110073973/8a9c22ea-a8a8-4b59-89ad-7ed7acecfb3a)
 
 Visuals
+
 ![image](https://github.com/micow980/chipotle_project/assets/110073973/138db54a-733d-44c3-bb0f-6d83147349af)
 
