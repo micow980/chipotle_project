@@ -8,12 +8,19 @@ Although the dataset is a snapshot of a certain day of data this can be adopted 
 
 **Tools**
 Languages Used: Python (Pandas, PyArrow)
+
 Infrastructure as Code: Terraform
+
 Data Orchestration: Mage
+
 Data Transformation: Mage
+
 Data Lake: Google Cloud Storage
+
 Data Warehouse: BigQuery
+
 Data Visualization: Looker Studio
+
 
 **Data Cleaning:**
 With the data in the column choice_description, all of the data contained bracketed values and commas rather than individual items per column. To remedy this, an .explode() function was utilized alongside a str() function to remove data issues
