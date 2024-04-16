@@ -8,21 +8,19 @@ Although the dataset is a snapshot of a certain day of data this can be adopted 
 
 **Tools**
 
-**Languages Used**: Python (Pandas, PyArrow)
+Python (Pandas, PyArrow) - Scripting
 
-**Infrastructure as Code:** Terraform
+Terraform - Infrastructure
 
-**Data Orchestration:** Mage
+Mage - Data Orchestration/Transformation 
 
-**Data Transformation:** Mage
+Google Cloud Storage - Data Lake
 
-**Data Lake:** Google Cloud Storage
+BigQuery - Data Warehousing
 
-**Data Warehouse:** BigQuery
+Looker Studio - Data Viz
 
-**Data Visualization:** Looker Studio
-
-![image](https://github.com/micow980/chipotle_project/assets/110073973/2e5b58f8-33cf-4d48-93ec-5b1710b85d90)
+**DAG:** Data Source -> Mage -> Data Lake (GCS) **and** Data Warehouse (BigQuery) -> Data Visualization (Looker)
 
 
 
