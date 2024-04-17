@@ -14,7 +14,7 @@ provider "google" {
 }
 
 resource "google_storage_bucket" "default-bucket" {
-  name          = "teak-truck-412721-terra-bucket"
+  name          = #EDIT HERE
   location      = var.location
   force_destroy = true
 
