@@ -6,7 +6,7 @@ The dataset found for this project was found on Kaggle in the form of a .tsv fil
 
 Although the dataset is a snapshot of a certain day of data this can be adopted to conduct ad-hoc reviews to assist managers in operations week-over-week given the proper data.
 
-**Tools**
+**Tools Used for Project**
 
 Python (Pandas, PyArrow) - Scripting
 
@@ -57,7 +57,7 @@ Download the py scripts provided within this repo and follow the order provided 
 
 **Mage Breakdown:**
 
-![image](https://github.com/micow980/chipotle_project/assets/110073973/8a9c22ea-a8a8-4b59-89ad-7ed7acecfb3a)
+![image](https://github.com/micow980/chipotle_project/assets/110073973/0e8aaf34-ac17-47d7-b3bd-9dbe465ef7c3)
 
 Visuals - Dashboard created via Google Looker
 
