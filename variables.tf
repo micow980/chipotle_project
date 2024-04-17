@@ -1,6 +1,6 @@
 variable "keys" {
   description = "My Credentials"
-  default     = "C:\\Users\\Micow\\Desktop\\terrademo\\keys\\keys.txt"
+  default     = #EDIT YOUR PATH HERE
 }
 
 variable "project" {
@@ -19,16 +19,16 @@ variable "location" {
 }
 
 variable "bq_dataset_name" {
-  description = "My BigQuery Dataset Name"
-  default     = "petfinder_data"
+  description = "Dataset"
+  default     = "chipotle_project"
 }
 
 variable "gcs_bucket_name" {
-  description = "My Storage Bucket Name"
-  default     = "petfinder-dogs"
+  description = "Bucket"
+  default     = "chipotle"
 }
 
 variable "gcs_storage_class" {
-  description = "Bucket Storage Class"
+  description = "Bucket Storage"
   default     = "STANDARD"
 }
