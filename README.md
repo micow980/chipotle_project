@@ -55,6 +55,8 @@ For this project mage was utilized in the extraction, transformation and loading
 To recreate please create a new pipeline project.
 Download the py scripts provided within this repo and follow the order provided in the photo below to set up your data downloader (data_chipotle.py), transformer (clean_chipotle.py) and exporting blocks (export_chipotle_to_gcs.py & export_chipotle_to_bq.py).
 
+Big Query connection allows for data to be opened in looker for data visualization.
+
 **Mage Breakdown:**
 
 ![image](https://github.com/micow980/chipotle_project/assets/110073973/0e8aaf34-ac17-47d7-b3bd-9dbe465ef7c3)
