@@ -34,6 +34,10 @@ For you to recreate you should have a working GCP account (trial included), Terr
 **Terraform:**
 Using the terraform files from the repo you'll need to have your GCP Credentials within the key file for your path to accept and read.
 
+Create a path similar to this one for your own purpose ./chipotle/keys/my-creds.json. Alongside your json file you can also leave the downloaded .tf files in here also.
+
+Within the variable.tf you'll need to update your GCP path to hold your credentials and change your bucket/objects.
+
 Attached is the files from this repo, please adjust the formatting to match your GCP credentials/pathing:
 _main.tf
 variable.tf_
@@ -43,6 +47,13 @@ terraform plan
 terraform apply
 
 Run the terraforming snippet
+
+**Mage**
+
+For this project mage was utilized in the extraction, transformation and loading data using batch-level processing. Per guidelines mage is an acceptable form of transformation outside of PySpark and DBT for this project, transformation utilized the pandas library on Python.
+
+To recreate please create a new pipeline project.
+Download the py scripts provided within this repo and follow the order provided in the photo below to set up your data downloader (data_chipotle.py), transformer (clean_chipotle.py) and exporting blocks (export_chipotle_to_gcs.py & export_chipotle_to_bq.py).
 
 **Mage Breakdown:**
 
